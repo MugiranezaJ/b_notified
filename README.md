@@ -25,7 +25,7 @@ http://127.0.0.1:8000/webapp/notify/
   - if type is SMS
      -  ex: +250730000000  
   - if type is PUSH_NOTIF:
-     -  it sands push notification to devices registered in (firebase cloude essaging) database
+     -  it sands push notification to devices registered in (firebase cloude essaging) database, leave it blunk.
 
 ## 3rd parties used
  - Twilio for sms messaging
