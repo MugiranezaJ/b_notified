@@ -5,6 +5,7 @@ A Django notification service
 ``
 http://127.0.0.1:8000/webapp/notify/
 ``
+ - x-www-urlencoded
 ```
 {
     type: '',
@@ -31,5 +32,4 @@ http://127.0.0.1:8000/webapp/notify/
  - FCM(Firebase Cloude Messaging) for push notifications
  ## Not yet implemented (downside)
  - Proper validation
- - Some issues with `gunicorn` while deployment trying to deploy
  - proper handling of confidential info
