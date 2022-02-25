@@ -28,8 +28,7 @@ class Notify:
     message = ''
     notif_type = ''
     recipient = ''
-    # recipient = '+250738913482'
-    # recipient = '+250780712835'
+    
     def __init__(self, notif_type, message, recipient):
         self.notif_type = notif_type
         self.message = message
