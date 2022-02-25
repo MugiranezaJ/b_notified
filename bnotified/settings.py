@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -144,7 +145,7 @@ SMS_BROADCAST_TO_NUMBERS = [
 
 from firebase_admin import initialize_app
 from firebase_admin import credentials
-BN_CRED = credentials.Certificate('/home/mugiranezaj/Documents/imishinga/djapp/bnotified-c05da-036863913602.json')
+BN_CRED = credentials.Certificate(os.getcwd()+'/bnotified-c05da-036863913602.json')
 FIREBASE_APP = initialize_app(BN_CRED)
 
 FCM_DJANGO_SETTINGS = {
