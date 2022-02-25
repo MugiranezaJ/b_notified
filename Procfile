@@ -1,1 +1,1 @@
-web:gunicorn bnotified.wsgi
+web: gunicorn bnotified.wsgi
